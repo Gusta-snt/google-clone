@@ -103,15 +103,15 @@ main .main-input-container:hover {
 }
 
 main .main-input-container .search-icon {
-  background-image: url("./assets/search.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  margin-left: 14px;
+  margin-top: 1px;
 
-  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
 }
 
 main .main-input .micro-icon {
